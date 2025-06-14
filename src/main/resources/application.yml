@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Arquitetura Spring
+  datasource:
+    url: jdbc:h2:mem:todos
+    username: sa
+server:
+  error:
+    include-stacktrace: never
